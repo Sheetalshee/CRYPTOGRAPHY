@@ -31,7 +31,7 @@ STEP-5: Combine all these groups to get the complete cipher text.
 ## PROGRAM 
  PROGRAM:
  ```
-import numpy as np
+import numpy as np 
 
 def mod26(x):
     return x % 26 if x >= 0 else (26 + x % 26)
